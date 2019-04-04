@@ -5,8 +5,8 @@
 </head>
 <body>
 	<form action="" method="POST">
-		Nama Kategori <input type="text" name="nama" required>
-		<input type="submit" name="submit" value="Submit" /> <input type="submit" name="ambi_data" value="Keluarkan Data" />
+		Nama Kategori <input type="text" name="nama">
+		<input type="submit" name="submit" value="Submit" /> <input type="submit" name="ambil_data" value="Keluarkan Data" />
 	</form>
 	<?php
 		$host = "kelvinwebappserver.database.windows.net";
