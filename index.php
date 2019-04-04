@@ -38,6 +38,7 @@
 				$kategori = $stmt->fetchAll();
 				if (count($kategori) > 0) {
 					echo "<table border='1'>";
+					echo "<tr><th>ID Kategori</th><th>Nama Kategori</th></tr>";
 					foreach ($kategori as $data) {
 						echo "<tr>";
 						echo "<td>".$data['id_kategori']."</td>";
